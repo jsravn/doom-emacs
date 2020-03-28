@@ -164,7 +164,9 @@ Is relative to `org-directory', unless it is absolute. Is used in Doom's default
   (set-pretty-symbols! 'org-mode
     :name "#+NAME:"
     :src_block "#+BEGIN_SRC"
-    :src_block_end "#+END_SRC"))
+    :src_block_end "#+END_SRC"
+    :src_block "#+begin_src"
+    :src_block_end "#+end_src"))
 
 
 (defun +org-init-babel-h ()
